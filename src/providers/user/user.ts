@@ -1,6 +1,7 @@
 import 'rxjs/add/operator/toPromise';
 
 import { Injectable } from '@angular/core';
+import { Pro } from '@ionic/pro';
 
 import { Api } from '../api/api';
 
@@ -44,6 +45,7 @@ export class User {
       }
     }, err => {
       console.error('ERROR', err);
+      Pro.monitoring.exception(new Error('login error'));
     });
 
     return seq;
@@ -63,6 +65,7 @@ export class User {
       }
     }, err => {
       console.error('ERROR', err);
+      Pro.monitoring.exception(new Error('signup error'));
     });
 
     return seq;
