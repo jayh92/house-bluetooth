@@ -1,0 +1,8 @@
+{
+  "name": "house-bluetooth",
+  "app_id": "0732724e",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
