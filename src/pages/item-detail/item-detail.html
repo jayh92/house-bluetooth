@@ -11,8 +11,19 @@
   <div class="item-profile" text-center #profilePic [style.background-image]="'url(' + item.profilePic + ')'">
   </div>
 
-  <div class="item-detail" padding>
+  <div class="item-detail" padding-1>
     <h2>{{item.name}}</h2>
     <p>{{item.about}}</p>
+
+    <div class="row">
+      <div col>
+        <div class="item-detail-delete" padding-2>
+          <button block ion-button color="danger" icon-start (click)="deleteItem()">
+            <ion-icon name='trash'></ion-icon>
+            Delete
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </ion-content>
