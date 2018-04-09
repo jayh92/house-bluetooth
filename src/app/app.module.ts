@@ -17,7 +17,7 @@ import { Api } from '../providers/providers';
 import { MyApp } from './app.component';
 
 Pro.init('0732724e', {
-  appVersion: '0.1.0'
+  appVersion: '0.2.0'
 })
 
 @Injectable()
