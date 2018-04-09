@@ -46,9 +46,9 @@ export class Items {
         "about": "Molly is a Mouse."
       },
       {
-        "name": "Paul Puppy",
+        "name": "Ellie Dog",
         "profilePic": "assets/img/speakers/puppy.jpg",
-        "about": "Paul is a Puppy."
+        "about": "Ellie is a Dog."
       }
     ];
 
