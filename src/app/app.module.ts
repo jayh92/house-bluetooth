@@ -4,6 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { Camera } from '@ionic-native/camera';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import { StatusBar } from '@ionic-native/status-bar';
+import { BluetoothSerial } from '@ionic-native/bluetooth-serial';
 import { IonicStorageModule, Storage } from '@ionic/storage';
 import { Pro } from '@ionic/pro';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -90,6 +91,7 @@ export function provideSettings(storage: Storage) {
     Camera,
     SplashScreen,
     StatusBar,
+    BluetoothSerial,
     { provide: Settings, useFactory: provideSettings, deps: [Storage] },
     IonicErrorHandler,
     [{ provide: ErrorHandler, useClass: MyErrorHandler }]
