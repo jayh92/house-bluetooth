@@ -28,6 +28,11 @@ export class SettingsPage {
     pageTitleKey: 'SETTINGS_PAGE_PROFILE'
   };
 
+  bluetoothSettings = {
+    page: 'bluetooth',
+    pageTitleKey: 'SETTINGS_PAGE_BLUETOOTH'
+  };
+
   page: string = 'main';
   pageTitleKey: string = 'SETTINGS_TITLE';
   pageTitle: string;

@@ -40,6 +40,10 @@
 
   "SETTINGS_PAGE_PROFILE": "Edit Profile",
 
+  "SETTINGS_PAGE_BLUETOOTH": "Manage Bluetooth Settings",
+
+  "SETTINGS_BLUETOOTH_BUTTON": "Manage Bluetooth Settings",
+
   "WELCOME_TITLE": "Welcome",
 
   "LOGIN_TITLE": "Sign in",
